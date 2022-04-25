@@ -1,6 +1,6 @@
 # University
 
-This repo contains all of the demos and code samples references in [Redpanda University](https://university.redpanda.com/).
+This repo contains all of the demos and code samples referenced in [Redpanda University](https://university.redpanda.com/).
 
 If, at any time, you encounter a bug with the code, please submit an Issue. 
 
