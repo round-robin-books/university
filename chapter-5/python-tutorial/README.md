@@ -7,12 +7,17 @@ The code contains a simple producer application that produces greetings (e.g. â€
 
 ## Get Started
 
-- Start a local Redpanda cluster with Docker Compose, and save the broker endpoint to the `REDPANDA_BROKERS` variable.
+- Start a local Redpanda cluster with Docker Compose.
 
   ```sh
   docker-compose up -d
-  export REDPANDA_BROKERS="127.0.0.1:9092"
   ```
+  
+- Save the broker endpoint to the `REDPANDA_BROKERS` variable. This is how the consumer and producer know which Redpanda cluster to talk to.
+
+   ```sh
+   export REDPANDA_BROKERS="127.0.0.1:9092"
+   ```
   
 - Create the `greetings` topic.
 
